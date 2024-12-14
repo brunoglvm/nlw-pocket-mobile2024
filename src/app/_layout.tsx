@@ -1,4 +1,5 @@
-import React from "react";
+import { GestureHandlerRootView } from "react-native-gesture-handler";
+
 import { Stack } from "expo-router";
 import { colors } from "@/styles/theme";
 
@@ -26,7 +27,7 @@ export default function Layout() {
   }
 
   return (
-    <>
+    <GestureHandlerRootView style={{ flex: 1 }}>
       <StatusBar
         barStyle={"dark-content"}
         backgroundColor={"transparent"}
@@ -38,6 +39,6 @@ export default function Layout() {
           contentStyle: { backgroundColor: colors.gray[100] },
         }}
       />
-    </>
+    </GestureHandlerRootView>
   );
 }
