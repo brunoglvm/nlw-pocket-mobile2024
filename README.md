@@ -38,7 +38,7 @@ Inicie o servidor de desenvolvimento do Expo Go:
 npx expo start
 ```
 
-🛠️ **_Back-end_**
+🛠️ **Back-end**
 
 Acesse o diretório e instale todas as dependências:
 
