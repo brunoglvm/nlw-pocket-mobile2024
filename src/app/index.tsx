@@ -6,7 +6,7 @@ import { Steps } from "@/components/Steps";
 import { Welcome } from "@/components/Welcome";
 import { Button } from "@/components/Button";
 
-export default function Teste() {
+export default function Screen() {
   return (
     <View style={{ flex: 1, padding: 40, gap: 40 }}>
       <Welcome />
